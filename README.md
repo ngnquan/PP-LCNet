@@ -4,6 +4,11 @@ Reproduction of PP-LCNet architecture as described in [PP-LCNet: A Lightweight C
 
 The official design is implemented with [Paddle](https://github.com/PaddlePaddle/Paddle) framework, the detail [here](https://github.com/PaddlePaddle/PaddleClas/blob/release/2.3/ppcls/arch/backbone/legendary_models/pp_lcnet.py)
 
+## TODO
+- [ ] PPLCNetv2 from [this](https://github.com/PaddlePaddle/PaddleClas/blob/release/2.5/docs/en/models/PP-LCNetV2_en.md)
+- [ ] PPLCNetv3 from [this](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/ppocr/modeling/backbones/rec_lcnetv3.py)
+- [ ] Convert weights from Paddle to Pytorch
+
 ## Models
 
 | Architecture      | #Parameters | FLOPs | Top-1 Acc. (%) |
